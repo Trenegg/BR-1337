@@ -13626,6 +13626,10 @@ countries = {
 			salamanca alba_de_tormes bejar ledesma matilla_de_canos piedrahita san_felices yecla_de_yeltes #Ciudad rodrigo
 			zamora alba_de_aliste alcanices benavente fermoselle puebla_de_sanabria toro villalpando
 			murcia albacete caravaca cartagena chinchilla cieza hellin lorca mula segura_de_la_sierra villena
+            feira #Beira Litoral
+            lamego meda pinhel trancoso viseu #Beira Alta
+            porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo #Minho
+            braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real #Tras-os-Montes
 		}
 
 		our_cores_conquered_by_others = {
@@ -13724,13 +13728,11 @@ countries = {
 	}
 
 	POR = {
-		own_control_core = {
+		own_control_core = { #BR Edit
 			lagos faro silves tavira
 			evora alvalade alvito avis beja crato elvas estremoz mertola montemor mora_portugal moura odemira ourique ponte_sor portalegre portel salvaterra serpa sines vila_vicosa
-			coimbra besteiros castelo_branco covilha esgueira feira guarda idanha lamego meda pinhel proenca_nova sabugal seia trancoso viseu
+			coimbra besteiros castelo_branco covilha esgueira guarda idanha proenca_nova sabugal seia
 			lisbon alcacer_do_sal alcobaca chao_de_couce figueira leiria santarem setubal tomar torres_novas torres_vedras
-			porto aguiar barcelos braga guimaraes montalegre valenca viana_do_castelo
-			braganca chaves macedo miranda_de_i_douro mirandela moncorvo vila_real
 		}
 
 		starting_technology_level = 3
