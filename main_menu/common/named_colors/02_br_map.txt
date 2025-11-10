@@ -1,0 +1,6 @@
+﻿
+colors = {
+
+	map_asturias = hsv360 { 204 223 324 }
+}
+

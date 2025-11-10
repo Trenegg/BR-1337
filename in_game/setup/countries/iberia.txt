@@ -55,7 +55,7 @@ MLL = {
 
 
 ASU = { #BR edit (repurposed as asturias)
-	color = map_CAS
+	color = map_asturias
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = castilian
