@@ -286,7 +286,7 @@ diplomacy_manager = {
     scripted_oneway = { first = FLA second = HOL type = trade_access }
 
     #------Byzantium--------
-    dependency = { first = BYZ second = EPI subject_type = vassal }
+    #dependency = { first = BYZ second = EPI subject_type = vassal } #BR EDIT
 
     #-------Low Lands-------
     dependency = { first = HOL second = ZEE subject_type = fiefdom }
@@ -348,24 +348,17 @@ diplomacy_manager = {
     scripted_oneway = { first = HUN second = HAB type = embargo_nation }
     scripted_oneway = { first = POL second = HAB type = embargo_nation }
     scripted_oneway = { first = BOH second = HAB type = embargo_nation }
-    dependency = { first = NAP second = ALB subject_type = vassal }
-    dependency = { first = ALB second = ANT subject_type = vassal }
-    dependency = { first = ALB second = MTR subject_type = vassal }
-    dependency = { first = ALB second = MZK subject_type = vassal }
-    dependency = { first = ALB second = THP subject_type = vassal }
+    dependency = { first = EPI second = ANT subject_type = vassal } #BR EDIT
+    dependency = { first = EPI second = THP subject_type = vassal } #BR EDIT
     dependency = { first = HUN second = BOS subject_type = vassal }
 
     #Anatolia
-    dependency = { first = AYD second = INA subject_type = vassal }
     dependency = { first = BIT second = HZN subject_type = vassal }
     dependency = { first = BIT second = MUS subject_type = vassal }
     dependency = { first = ERE second = KBD subject_type = tributary }
     dependency = { first = ERE second = TDJ subject_type = tributary }
     dependency = { first = ERE second = HCI subject_type = tributary }
     dependency = { first = ERE second = BFR subject_type = tributary }
-    dependency = { first = GRM second = KRD subject_type = vassal }
-    dependency = { first = GRM second = SRU subject_type = vassal }
-    dependency = { first = GRM second = AYD subject_type = vassal }
     dependency = { first = JAL second = ARD subject_type = vassal }
     dependency = { first = JAL second = ATZ subject_type = vassal }
     dependency = { first = JAL second = DML subject_type = vassal }
@@ -387,7 +380,6 @@ diplomacy_manager = {
     dependency = { first = JAL second = ZBR subject_type = vassal }
     dependency = { first = MAM second = DUL subject_type = vassal }
     dependency = { first = MAM second = KIL subject_type = vassal }
-    dependency = { first = MEN second = TVS subject_type = vassal }
     dependency = { first = SUT second = BHT subject_type = vassal }
     dependency = { first = SUT second = BIN subject_type = vassal }
     dependency = { first = SUT second = BIT subject_type = vassal }
@@ -404,7 +396,7 @@ diplomacy_manager = {
     dependency = { first = SUT second = ZRQ subject_type = vassal }
     dependency = { first = SUT second = ZZR subject_type = vassal }
 
-    scripted_mutual = { first = BYZ second = TRE type = alliance }
+    #scripted_mutual = { first = BYZ second = TRE type = alliance }
     scripted_mutual = { first = MAM second = CND type = alliance }
     scripted_mutual = { first = MAM second = KAR type = alliance }
     scripted_mutual = { first = HBN second = KTW type = alliance }

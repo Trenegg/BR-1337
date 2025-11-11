@@ -4295,34 +4295,7 @@ countries = {
 		include = "eastern_european_monarchy"
 	}
 
-	GAZ = {	# Gazaria
-		own_control_core = {
-			kaffa vosporo #Black Sea
-		}
-
-		own_control_integrated = {
-			tana 
-		}
-
-		starting_technology_level = 3
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-		capital = kaffa
-
-		accepted_cultures = {
-			pontic_greek_culture
-		}
-
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic"
-	}
+	#GAZ #BR REMOVED
 
 	ENG = { # England
 		own_control_core = {
@@ -12382,53 +12355,7 @@ countries = {
 		#dynasty = anjou_taranto_dynasty
 	}
 
-	CEP = {
-		own_control_core = {
-			zakynthos leukas cephalonia
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = ach_robert_taranto
-
-			ruler_term = { character = cep_riccardo_i_orsini start_date = 1194.1.1 end_date = 1197.1.1 regnal_number = 1 }
-			ruler_term = { character = cep_maio_i_orsini start_date = 1197.1.1 end_date = 1238.1.1 regnal_number = 1 }
-			ruler_term = { character = cep_maio_ii_orsini start_date = 1238.1.1 end_date = 1259.1.1 regnal_number = 2 }
-			ruler_term = { character = cep_riccardo_ii_orsini start_date = 1259.1.1 end_date = 1304.1.1 regnal_number = 2 }
-			ruler_term = { character = cep_giovanni_i_orsini start_date = 1304.1.1 end_date = 1317.1.1 regnal_number = 1 }
-			ruler_term = { character = epi_nikolaos_orsini start_date = 1317.1.1 end_date = 1323.1.1 regnal_number = 1 }
-			ruler_term = { character = cep_john_orsini start_date = 1323.1.1 end_date = 1324.1.1 regnal_number = 2 }
-
-			ruler_term = { character = alb_john_gravina start_date = 1324.1.1 end_date = 1336.4.5 regnal_number = 3 }
-			ruler_term = { character = ach_robert_taranto start_date = 1336.4.5 regnal_number = 1 }
-
-			regnal_numbers = {
-				#Margaritus = 1
-				name_matthew = 2
-				name_richard = 2
-				name_john = 3
-				name_charles = 1
-				name_robert = 1
-			}
-		}
-		
-		tolerated_cultures = {
-			greek_culture
-		}
-		capital = cephalonia
-		court_language = french_language
-		dynasty = anjou_dynasty
-		#dynasty = anjou_taranto_dynasty
-	}
+	#CEP BR REMOVED
 
 	LAT = { #The Latin Empire
 		starting_technology_level = 3
@@ -12509,9 +12436,25 @@ countries = {
 		own_control_core = {
 			nafpaktos angelokastron vonitsa arta preveza parga ioannina kleisoura_epirus butrint
 			argyrokastro avlonya karpenisi konitsa
+
+			#MZK
+			berat ballsh
+
+			#MTR
+			kavaje
+
+			#ALB
+			durres
+
+			#CEP
+			zakynthos leukas cephalonia
+
+			#BYZ
+			devol pyli
+
+
 		}
 		our_cores_conquered_by_others = {
-			ballsh berat
 		}
 
 		starting_technology_level = 3
@@ -12656,13 +12599,64 @@ countries = {
 			uskudar silli biga eregli
 			chios vize
 			ormenio
+
+			#TUR
+			beypazari kibrus kizilca
+			bolu akcasehir akyazi konrapa gerede mengen mudurnu
+			bursa adranos iznik
+			izmit atpazari
+			domanic
+			sultanonu bilecik goynuk eynegol inonu nalli sogut
+
+			#KRD
+			balikesir balya edremit manyas mihalic susurluk
+			ayvacik bandirma bayramic can canakkale gonen lapseki
+			dursunbey harmancik
+
+			#GRM
+			mihaliccik sivrihisar bozan kaymaz
+			altintas emirdag seyitgazi
+			kutahya aslanapa emet simav tavsanli
+			usak banaz gediz seyhli
+
+			#SRU
+			manisa akhisar demirci gordes kula
+			bergama bigadic soma
+
+			#AYD
+			smyrna ayasuluk cesme menemen urla
+			tire balat birgi guzelhisar nazilli
+
+			#MEN
+			milas
+			mugla bodrum cine gokabat marmaris megri yuksekkum
+
+			#TVS
+			tavas
+
+			#INA
+			honaz lazkiye
+
+			#SHP
+			karahisar_i_sahib sandikli suhut
+
+			#AHI
+			ankara cubuk haymana kalecik polatli karakecili
+
+			#HMD
+			isparta burdur dinar egirdir uluborlu yalvac
+			golhisar stefani
+
+			#TEK
+			antalya elmali karahisar_i_teke kas istanoz
+			manavgat finike
 			
 		}
 		own_control_integrated = {
-			bukelon devol ustra
+			bukelon ustra
 		}
 		own_control_conquered = {
-			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos pyli karditsa grevena
+			demetrias tripolitsa veligosti karytaina farsala elassona larissa siatista stomio trikala tyrnavos karditsa grevena
 		}
 		our_cores_conquered_by_others = {
 			#Vardar Province - lost in 1285
@@ -12682,31 +12676,6 @@ countries = {
 
 			#Kocaeli Province
 			izmit atpazari
-
-			#Hudavendigar Province - Mostly lost in 1328 except for Nicaea which fell around 1331
-			iznik  bursa adranos harmancik dursunbey
-
-			#Biga Province - substantial loss in 1306 / near-total loss in 1328
-			bandirma gonen can bayramic ayvacik canakkale lapseki
-
-			#Karasi Province - lost most of it around 1297
-			mihalic manyas susurluk balya balikesir bigadic edremit bergama
-
-			#Saruhan Province - lost in 1300
-			demirci kula gordes akhisar soma manisa foca
-
-			#Smyrna Province - lost around 1311
-			menemen smyrna ayasuluk urla cesme
-
-			#Aydin Province - partially lost in 1274 / completely in 1300
-			birgi tire guzelhisar nazilli cine balat milas
-
-			#Mugla Province - lost in late 1270
-			gokabat marmaris bodrum mugla
-
- 			dospat bansko krupnik melnik nevrokop 
-			tsepina 
-			beden haskovo perperek smolyan stanimaka
 		}
 
 		starting_technology_level = 3
@@ -12856,53 +12825,7 @@ countries = {
 		country_rank = rank_empire
 	}
 
-	ALB = {
-		own_control_core = {
-			durres
-		}
-
-		our_cores_conquered_by_others = {
-			elbasan kavaje kruje tirana
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			regency = consort_regency
-			active_regent = alb_agnes_perigord
-			start_regency_date = 1336.4.5
-			end_regency_date = 1341.1.1
-			heir = alb_charles_durazzo
-
-			ruler_term = { character = nap_charles_i_anjou start_date = 1272.2.1 end_date = 1285.1.7 regnal_number = 1 }
-			ruler_term = { character = nap_carlo_ii_anjou start_date = 1285.1.7 end_date = 1294.8.13 regnal_number = 2 }
-			ruler_term = { character = alb_filippo_i_taranto start_date = 1294.8.13 end_date = 1332.12.23 regnal_number = 1 }
-			ruler_term = { character = ach_robert_taranto start_date = 1332.12.23 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = { character = alb_john_gravina start_date = 1333.1.1 end_date = 1336.4.5 regnal_number = 1 }
-
-			regnal_numbers = {
-				name_john = 1
-				name_charles = 1
-			}
-		}
-
-		tolerated_cultures = {
-			bulgarian
-		}
-
-		country_rank = rank_kingdom
-		capital = durres
-		dynasty = anjou_dynasty
-		#dynasty = anjou_durazzo_dynasty
-	}
+	#ALB BR REMOVED
 
 	THP = {
 		own_control_core = {
@@ -12930,38 +12853,8 @@ countries = {
 		dynasty = thopia_dynasty
 	}
 
-	MZK = {
-		own_control_core = {
-			berat ballsh
-		}
 
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = mzk_andrea_ii_muzaka
-
-			ruler_term = { character = mzk_andrea_ii_muzaka start_date = 1331.1.1 regnal_number = 2 }
-
-			regnal_numbers = {
-				name_andrew = 2
-			}
-		}
-
-		tolerated_cultures = {
-			aromanian
-		}
-
-		capital = berat
-		dynasty = muzakajt_dynasty
-	}
+	#MZK BR REMOVED
 
 	ANT = {
 		own_control_core = {
@@ -12993,31 +12886,7 @@ countries = {
 		dynasty = arianiti_dynasty
 	}
 
-	MTR = {
-		own_control_core = {
-			kavaje
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-
-			ruler = mtr_pal_mataranga
-
-			ruler_term = { character = mtr_pal_mataranga start_date = 1300.1.1 regnal_number = 1 }
-
-		}
-
-		capital = kavaje
-		dynasty = mataranga_dynasty
-	}
+	#MTR BR REMOVED
 
 	SER = {
 		own_control_core = {
@@ -31117,36 +30986,7 @@ countries = {
 	#Anatolia
 
 	#Ahiler - AHI https://en.wikipedia.org/wiki/Ahis
-	AHI = {
-		own_control_core = {
-			ankara cubuk haymana kalecik polatli karakecili
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "muslim_republic"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-
-			reforms = {
-				anatolian_beylik
-			}
-
-		}
-
-		tolerated_cultures = {
-			romanyoti
-		}
-
-		capital = ankara
-		religious_school = alevism_school
-		tolerated_cultures = {
-			greek_culture
-			turkoman_culture
-		}
-	}
+	#BR REMOVED
 
 	#Alaiye - ALY https://en.wikipedia.org/wiki/Alaiye
 	ALY = {
@@ -31220,70 +31060,11 @@ countries = {
 	}
 
 	#Aydinids - AYD https://en.wikipedia.org/wiki/Aydinids
-	AYD = {
-		own_control_core = {
-			smyrna ayasuluk cesme menemen urla
-			tire balat birgi guzelhisar nazilli
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining"
-		government = {
-			ruler_term = {	 character = ayd_muhammad start_date = 1308.1.1 end_date = 1334.1.1	}
-			ruler_term = {	 character = ayd_umur start_date = 1334.1.1	}
-			ruler = ayd_umur
-
-			#Naval Beylik
-			land_vs_naval = 40
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-
-
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		country_rank = rank_duchy
-
-		capital = birgi
-		religious_school = bektashi_school
-	}
+	#BR REMOVED
 
 	#Bafra - BFR #https://en.wikipedia.org/wiki/Beylik_of_Bafra
-	BFR = {
-		own_control_core = {
-			bafra gerze
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining_no_education"
-		government = {
-			ruler = random
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		capital = bafra
-
-		dynasty = candarids_dynasty
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-
-		tolerated_cultures = {
-			pontic_greek_culture
-		}
-	}
+	#BR REMOVED
+	
 
 	#Cilicia - CIL https://en.wikipedia.org/wiki/Armenian_Kingdom_of_Cilicia
 	CIL = {
@@ -31352,44 +31133,7 @@ countries = {
 	}
 
 	#Candarids - CND https://en.wikipedia.org/wiki/Candar_dynasty
-	CND = {
-		own_control_core = {
-			bartin
-			kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
-			cankiri bayat cerkes kursunlu tosya
-			iskilip sabanozu ulus yenicepazari
-		}
-
-		own_control_integrated = {
-			safranbolu
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik"
-
-		government = {
-			ruler_term = {	 character = cnd_yaman start_date = 1291.1.1 end_date = 1309.1.1 }
-			ruler_term = {	 character = cnd_suleyman start_date = 1309.1.1	}
-			ruler = cnd_suleyman
-
-			#Naval Beylik
-			land_vs_naval = 40
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-
-		}
-
-		capital = kastamonu
-		religious_school = mevlevi_school
-		tolerated_cultures = {
-			pontic_greek_culture
-			turkoman_culture
-		}
-	}
+	#BR REMOVED
 
 	#Cyprus - CYP
 	CYP = {
@@ -31608,91 +31352,13 @@ countries = {
 	}
 
 	#Germiyanids - GRM https://en.wikipedia.org/wiki/Germiyanids
-	GRM = {
-		own_control_core = {
-			mihaliccik sivrihisar bozan kaymaz
-			altintas emirdag seyitgazi
-			kutahya aslanapa emet simav tavsanli
-			usak banaz gediz seyhli
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = grm_yakub_i start_date = 1302.1.1 }
-			ruler = grm_yakub_i
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = kutahya
-		religious_school = mevlevi_school
-	}
+	#BR REMOVED
 
 	#Hamidids - HMD https://en.wikipedia.org/wiki/Hamidids
-	HMD = {
-		own_control_core = {
-			isparta burdur dinar egirdir uluborlu yalvac
-			golhisar stefani
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = ham_hamid start_date = 1240.1.1 end_date = 1302.1.1 }
-			ruler_term = {	 character = ham_ilyas start_date = 1302.1.1 end_date = 1307.1.1 }
-			ruler_term = {	 character = ham_dundar start_date = 1307.1.1 end_date = 1324.1.1 }
-			ruler_term = {	 character = ham_kizhir start_date = 1324.1.1 }
-			ruler = ham_kizhir
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-			turkoman_culture
-		}
-
-		capital = uluborlu
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
+	#BR REMOVED
 
 	#Haciemirids - HCI https://en.wikipedia.org/wiki/Beyliks_of_Canik
-	HCI = {
-		own_control_core = {
-			mesudiye
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = hci_bayram start_date = 1313.1.1 }
-			ruler = hci_bayram
-
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-		tolerated_cultures = {
-			pontic_greek_culture
-			laz_culture
-		}
-
-		capital = mesudiye
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
+	#BR REMOVED
 
 	#Ayyubids - HSN https://en.wikipedia.org/wiki/Ayyubid_dynasty
 	HSN = {
@@ -31722,34 +31388,7 @@ countries = {
 	}
 
 	#Inanjids - INA https://en.wikipedia.org/wiki/Inanjids
-	INA = {
-		own_control_core = {
-			honaz lazkiye
-		}
-
-		our_cores_conquered_by_others = {
-			tavas yuksekkum
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = ina_murad_arslan start_date = 1335.1.1	}
-			ruler = ina_murad_arslan
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = lazkiye
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
+	#BR REMOVED
 
 	#Karamanids - KAR https://en.wikipedia.org/wiki/Karamanids
 	KAR = {
@@ -31793,187 +31432,22 @@ countries = {
 	}
 
 	#Kubadids - KBD https://tr.wikipedia.org/wiki/Kubado%C4%9Fullar%C4%B1_Emirli%C4%9Fi
-	KBD = {
-		own_control_core = {
-			gadegara ladik_pontus merzifon
-			gumus
-			samsun
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik"
-		government = {
-			ruler_term = {	 character = kbd_taceddin_altunbas start_date = 1318.1.1 }
-			ruler = kbd_taceddin_altunbas
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		capital = ladik_pontus
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-
-		tolerated_cultures = {
-			pontic_greek_culture
-		}
-	}
+	#BR REMOVED
 
 	#Karasids - KRD https://en.wikipedia.org/wiki/Karasids
-	KRD = {
-		own_control_core = {
-			balikesir balya edremit manyas mihalic susurluk
-			ayvacik bandirma bayramic can canakkale gonen lapseki
-			dursunbey harmancik
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik"
-		government = {
-			ruler_term = {	 character = krd_yakhshi start_date = 1328.1.1	}
-			ruler = krd_yakhshi
-
-			#Naval Beylik
-			land_vs_naval = 40
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = balikesir
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
+	#BR REMOVED
 
 	#Mentese - MEN https://en.wikipedia.org/wiki/Menteshe
-	MEN = {
-		own_control_core = {
-			milas
-			mugla bodrum cine gokabat marmaris megri yuksekkum
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining"
-		government = {
-			ruler_term = {	 character = men_mentese start_date = 1261.1.1 end_date = 1282.1.1	}
-			ruler_term = {	 character = men_mesut start_date = 1282.1.1 end_date = 1319.1.1	}
-			ruler_term = {	 character = men_orkhan start_date = 1320.1.1	}
-			ruler = men_orkhan
-
-			#Naval Beylik
-			land_vs_naval = 40
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = milas
-		religious_school = mevlevi_school
-	}
+	#BR REMOVED
 
 	#Tavas - TVS
-	TVS = {
-		own_control_core = {
-			tavas
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler = tvs_ilyas_bey
-			ruler_term = {	 character = tvs_ilyas_bey start_date = 1330.1.1	}
-
-			#Naval Beylik
-			land_vs_naval = 40
-
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = tavas
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
+	#BR REMOVED
 
 	#Sahipataids - SHP https://en.wikipedia.org/wiki/Sahib_Ataids
-	SHP = {
-		own_control_core = {
-			karahisar_i_sahib sandikli suhut
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_coast"
-		government = {
-			ruler_term = {	 character = shp_hussein start_date = 1249.1.1 end_date = 1272.1.1	}
-			ruler_term = {	 character = shp_hassan start_date = 1275.1.1 end_date = 1277.1.1	}
-			ruler_term = {	 character = shp_mehmed start_date = 1277.1.1 end_date = 1287.1.1	}
-			ruler_term = {	 character = shp_nusreddin_ahmed start_date = 1287.1.1	}
-			ruler = shp_nusreddin_ahmed
-			privilege = {
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = karahisar_i_sahib
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
+	#BR REMOVED
 
 	#Saruhanids - SRU https://en.wikipedia.org/wiki/Sarukhanids
-	SRU = {
-		own_control_core = {
-			manisa akhisar demirci gordes kula
-			bergama bigadic soma
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining"
-		government = {
-			ruler_term = {	 character = sru_saruhan start_date = 1313.1.1	}
-			ruler = sru_saruhan
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = manisa
-		religious_school = mevlevi_school
-	}
+	#BR REMOVED
 
 	#Sutayids - SUT https://en.wikipedia.org/wiki/Sutayids
 	SUT = {
@@ -32428,79 +31902,48 @@ countries = {
 	}
 
 	#Tacettinids - TDJ https://en.wikipedia.org/wiki/Beyliks_of_Canik https://en.wikipedia.org/wiki/Beylik_of_Tacettin
-	TDJ = {
-		own_control_core = {
-			amasya niksar sonisa
-			akkus terme
-		}
-
-		starting_technology_level = 3
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining"
-		government = {
-			ruler_term = {	 character = tdj_tajeddin start_date = 1334.1.1	}
-			ruler = tdj_tajeddin
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		capital = niksar
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-
-		tolerated_cultures = {
-			pontic_greek_culture
-			laz_culture
-		}
-	}
+	#BR REMOVED
 
 	#Teke - TEK https://en.wikipedia.org/wiki/Beylik_of_Teke
-	TEK = {
-		own_control_core = {
-			antalya elmali karahisar_i_teke kas istanoz
-			manavgat finike
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik_no_mining"
-		government = {
-			ruler_term = {	 character = tek_yunus start_date = 1319.1.1 end_date = 1324.1.1	}
-			ruler_term = {	 character = tek_muhammad start_date = 1324.1.1 end_date = 1328.1.1	}
-			ruler_term = {	 character = tek_sinanuddin_hizir start_date = 1328.1.1	}
-			ruler = tek_sinanuddin_hizir
-
-			privilege = {
-				sponsor_maritime_contracts
-				dhimmi_abrahamic_communities
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-		}
-
-		capital = antalya
-		religious_school = maturidi_school #Widespread among the Turks together with Hanafi
-	}
-
+	#BR REMOVED
+	
 	#Trebizond - TRE
 	TRE = {
 		own_control_core = {
 			trebizond giresun gorele gumushane surmene
 			bayramlu unye  
+
+			#HCI
+			mesudiye
+
+			#TDJ
+			amasya niksar sonisa
+			akkus terme
+
+			#KBD
+			gadegara ladik_pontus merzifon
+			gumus
+			samsun
+
+			#BFR
+			bafra gerze
+
+			#CND
+			bartin
+			kastamonu arac boyabat devrekani inebolu kure_i_mamure sinop taskopru
+			cankiri bayat cerkes kursunlu tosya
+			iskilip sabanozu ulus yenicepazari
 		}
 
 		own_control_integrated = {
 			taman
+
+			#GAZ
+			tana kaffa vosporo
 		}
 
 		our_cores_conquered_by_others = {
 			khupati rize
-			akkus mesudiye terme 
 		}
 
 		starting_technology_level = 3
@@ -32547,92 +31990,7 @@ countries = {
 	}
 
 	#Ottomans - TUR https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire
-	TUR = {
-		own_control_core = {
-			beypazari kibrus kizilca
-			bolu akcasehir akyazi konrapa gerede mengen mudurnu
-			bursa adranos iznik
-			izmit atpazari
-			domanic
-			sultanonu bilecik goynuk eynegol inonu nalli sogut
-		}
-
-		include = "expl_eastern_europe"
-		include = "expl_muslim_mediterranean"
-		include = "turkish_beylik"
-		government = {
-
-			ruler_term = {	 character = tur_osman start_date = 1299.1.1 end_date = 1324.1.1 regnal_number = 1	}
-			ruler_term = {	 character = tur_orhan start_date = 1324.1.1 regnal_number = 1	}
-
-			ruler = tur_orhan
-
-			centralization_vs_decentralization = 10
-			aristocracy_vs_plutocracy = -30
-			serfdom_vs_free_subjects = 0
-			traditionalist_vs_innovative = 10
-			spiritualist_vs_humanist = 10
-			mercantilism_vs_free_trade = -25
-			offensive_vs_defensive = 0
-			land_vs_naval = -20
-			quality_vs_quantity = -30
-			belligerent_vs_conciliatory = -40
-			capital_economy_vs_traditional_economy = 80
-			individualism_vs_communalism = -20
-			outward_vs_inward = -60
-
-			privilege = {
-				#Nobles
-				elaborate_court_ceremonies
-				noble_sponsored_navy
-				ghazi_privilege
-
-				#Clergy
-				clergy_literacy_rights
-				clergy_enforced_unity
-				embellish_great_works_of_faith
-				clergy_literacy_rights
-				clergy_land_rights
-
-				#Burghers
-				formal_guilds
-				building_rights
-				market_fairs
-				shipwright_contracts
-				sponsor_maritime_contracts
-
-				#Peasants
-				partial_yield
-				peasants_free_peasantry
-
-				#Dhimmi
-				dhimmi_land_rights
-				dhimmi_administrative_posts
-				dhimmi_abrahamic_communities
-				dhimmi_pact_of_umar
-
-				#Tribes
-				tribes_land_rights
-				tribes_pasture_access
-			}
-
-			laws = {
-				royal_court_customs_law = harem_policy
-			}
-		}
-
-		tolerated_cultures = {
-			greek_culture
-			turkoman_culture
-		}
-
-		capital = bursa
-
-		country_rank = rank_duchy
-
-		religious_school = maturidi_school #since their founding they were supporters of maturidi, although they were also among the earliest adopters of hanafi and had ismaili, alawi, alevi, bektashi and mevlevi
-	}
-
+	#BR REMOVED
 
 	#Jalayirids - JAL https://en.wikipedia.org/wiki/Jalayirid_Sultanate
 	JAL = {
