@@ -2,5 +2,11 @@
  ASU: "Asturias"
  ASU_ADJ: "Asturias"
  CAS_LONG: "Crown of $ASU$"
+ ANA: "Anatolia"
+ ANA_ADJ: "Anatolian"
+ ANA_LONG: "Exarchate of $ANA$"
+ MOE: "Morea"
+ MOE_ADJ: "Morean"
+ #MOE_LONG: "Exarchate of $MOE$"
 
 #Other
