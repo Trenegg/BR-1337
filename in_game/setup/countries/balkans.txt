@@ -276,3 +276,11 @@ GOR = {
 	culture_definition = danube_bavarian
 	religion_definition = catholic
 }
+
+#BR ADDED
+MOE = {
+	color = rgb { 40 240 60 }
+
+	culture_definition = greek_culture
+	religion_definition = orthodox
+}
